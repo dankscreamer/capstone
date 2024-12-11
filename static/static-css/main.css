@@ -1,0 +1,30 @@
+main{
+    display: flex;
+
+    
+    
+    justify-content: center;
+
+}
+section{
+    margin-top: 5vh;
+    
+
+
+
+}
+.imgforhead{
+    height: auto;
+    width: 100%;
+}
+
+
+.content-head{
+    font-size: 6vh;
+    width: 96vw;
+    text-align: center;
+    
+    
+
+
+}
