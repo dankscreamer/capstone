@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.logo{
+    height: 5vh;
+    width: auto;
+}
+.menuitem{
+    padding:20px 20px;
+    text-decoration: none;
+    color:#281B28 ;
+}
