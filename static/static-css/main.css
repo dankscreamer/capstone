@@ -16,6 +16,9 @@ section{
 .imgforhead{
     height: auto;
     max-width: 100%;
+    position: relative; 
+    width: 100%; 
+    z-index: 2; 
 }
 
 
@@ -27,4 +30,20 @@ section{
     
 
 
+}
+.imgforh{
+    height: auto;
+    max-width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    z-index: 1;
+
+}
+.wrap{
+    position: relative;
+    width: 100%;
+    height: auto;
 }
