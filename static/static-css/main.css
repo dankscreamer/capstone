@@ -1,11 +1,11 @@
-main{
+/* main{
     display: flex;
 
     
     
     justify-content: center;
 
-}
+} */
 section{
     margin-top: 5vh;
     
@@ -15,7 +15,7 @@ section{
 }
 .imgforhead{
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 
