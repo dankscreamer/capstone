@@ -1,33 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Outfit:wght@100..900&display=swap");
 .container {
     display: grid;
-    flex-wrap: wrap; 
-    gap: 25px; 
-    justify-items: center; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 25px;
+    justify-items: center;
     align-items: center;
-    margin-top: 20px; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding-left:4% ;
-    padding-right: 4%;
+    margin-top: 20px;
+    padding: 0 4%;
     
 }
 
 .proj {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    
     display: flex;
-    justify-content: center;
-    
-    font-size: 1.5rem;
-    padding-bottom: 10px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
     
     
 }
 .proj img{
-    height: auto;
     width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    
 }
 .paragraph{
     text-align: left;
@@ -38,7 +35,7 @@
 .subject{
     text-align: left;
     font-size: x-small;
-    color:#2919299E;
+    color: #2919299E
 }
 .newfont{
 
