@@ -7,10 +7,17 @@
 }
 body {
   background-color: #fbfdfe;
+  font-size: 2rem;
 }
 .text {
   font-family: "Domine", serif;
   font-optical-sizing: auto;
   font-style: normal;
   
+}
+.description{
+  text-align: center;
+}
+.decimage{
+  width: 90vw;
 }

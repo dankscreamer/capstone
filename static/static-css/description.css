@@ -1,0 +1,62 @@
+.dec{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.decimage{
+    width: 92%;
+    height: auto;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.form >*{
+    margin: 10px;
+}
+.input-holder{
+    display: flex;
+}
+.input-num{
+    padding: 20px 20px;
+    border: 1px solid #EEECF0;
+    background-color: #EEECF0;
+    border-radius: 8px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.form-submit{
+    padding: 10px 30px;
+    width: 20vw;
+    border: none;
+    background-color: #D8BFD8;
+    border-radius: 32px;
+}
+.skip{
+    color: #D8BFD8;
+    font-size: 1.2rem;
+}
+footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 92px;
+font-size: 1.5rem;
+}
+footer > button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+}
+.subject{
+    font-size: 2rem;
+}
+.paragraph{
+    font-size: 2rem;
+}
